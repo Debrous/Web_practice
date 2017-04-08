@@ -1,0 +1,192 @@
+body {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Russo One', sans-serif;
+}
+
+.head {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://unsplash.it/1200/400/?random);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+
+
+/*
+.head:before{
+    content: "Jim Tsai ";
+    
+}
+*/
+
+.head h1:before {
+    content: "";
+}
+
+.head h2:before {
+    content: "";
+}
+
+ul {
+    display: inline-block;
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    float: right;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: right;
+    padding: 25px;
+    position: fixed;
+}
+
+li:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+
+/*
+@media screen and (max-width: 1000px){
+    .box{
+        background-color: blue;
+    }
+}
+*/
+
+.box-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+    .box-image {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.about_panel {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://unsplash.it/1200/400?image=51);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 25px;
+    color: rgb(229, 178, 81)
+}
+
+.box2 {
+    float: right;
+    width: 33.33%;
+}
+
+.box {
+    width: 33.33%;
+    float: right;
+}
+
+.box3 {
+    width: 33.33%;
+}
+
+.EDUCATION_panel {
+    width: 100%;
+    height: 50vh;
+}
+
+.about_image {
+    width: 480px;
+    height: 640px;
+    border-radius: 70px;
+   
+}
+
+@media screen and (max-width: 600px) {
+    .about_image {
+        width: 160px;
+        height: 320px;
+        border-radius: 35px;
+        display: block;
+        margin: auto
+    }
+}
+
+
+
+
+.about_image_panel {
+
+  
+}
+
+.space_panel {
+    height: 15vh;
+}
+
+.about_text {
+    float: right;
+    padding: 300px;
+    
+}
+.image {
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+		.image img {
+			display: block;
+		}
+
+		.image.left, .image.right {
+			max-width: 40%;
+		}
+
+			.image.left img, .image.right img {
+				width: 100%;
+			}
+
+		.image.left {
+			float: left;
+			margin: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.image.right {
+			float: right;
+			margin: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		.image.fit {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+
+			.image.fit img {
+				width: 100%;
+			}
+
+		.image.main {
+			display: block;
+			margin: 0 0 3em 0;
+			width: 100%;
+		}
+
+			.image.main img {
+				width: 100%;
+			}
